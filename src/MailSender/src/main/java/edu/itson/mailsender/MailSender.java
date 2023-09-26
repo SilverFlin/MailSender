@@ -26,3 +26,4 @@ public interface MailSender {
         public boolean validate(MessageDTO message);
         
 }
+
