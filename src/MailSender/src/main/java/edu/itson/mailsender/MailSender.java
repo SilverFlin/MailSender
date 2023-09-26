@@ -20,6 +20,7 @@ public interface MailSender {
         public MessageSummary send(MessageDTO message, String password);
         /**
          * Metodo para validar el mensaje
+         * @param message
          * @return Objeto que representa el resumen del mensaje
          */
         public boolean validate(MessageDTO message);

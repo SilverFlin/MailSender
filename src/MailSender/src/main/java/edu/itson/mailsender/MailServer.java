@@ -11,5 +11,5 @@ public class MailServer {
     //Cadena que representa el nombre del Servidor
     public String name;
     //Lista de objetos de protocolos 
-    public   java.util.ArrayList<Protocol> List;
+    public java.util.ArrayList<Protocol> List;
 }
